@@ -1,0 +1,146 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" version="29.6.6">
+  <diagram id="qw00LqyGS7UqUUDBP_uR" name="Página-1">
+    <mxGraphModel dx="1034" dy="564" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CdTVhccYFgZ_ZqCnvElY-17" edge="1" parent="1" source="CdTVhccYFgZ_ZqCnvElY-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="CdTVhccYFgZ_ZqCnvElY-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="414" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CdTVhccYFgZ_ZqCnvElY-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" value="Início" vertex="1">
+          <mxGeometry height="80" width="120" x="354" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="CdTVhccYFgZ_ZqCnvElY-4" edge="1" parent="1" source="CdTVhccYFgZ_ZqCnvElY-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="CdTVhccYFgZ_ZqCnvElY-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CdTVhccYFgZ_ZqCnvElY-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" value="Acenda o pisca alerta" vertex="1">
+          <mxGeometry height="60" width="120" x="210" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="CdTVhccYFgZ_ZqCnvElY-6" edge="1" parent="1" source="CdTVhccYFgZ_ZqCnvElY-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="CdTVhccYFgZ_ZqCnvElY-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CdTVhccYFgZ_ZqCnvElY-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" value="Pare em um local seguro" vertex="1">
+          <mxGeometry height="60" width="120" x="210" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="CdTVhccYFgZ_ZqCnvElY-9" edge="1" parent="1" source="CdTVhccYFgZ_ZqCnvElY-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="CdTVhccYFgZ_ZqCnvElY-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CdTVhccYFgZ_ZqCnvElY-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" value="Puxe o freio de mão, e coloque na 1°marcha" vertex="1">
+          <mxGeometry height="60" width="120" x="210" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="CdTVhccYFgZ_ZqCnvElY-14" edge="1" parent="1" source="CdTVhccYFgZ_ZqCnvElY-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="CdTVhccYFgZ_ZqCnvElY-13" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CdTVhccYFgZ_ZqCnvElY-8" parent="1" style="whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;rounded=1;" value="Abra a porta, desça do carro, feche a porta" vertex="1">
+          <mxGeometry height="60" width="120" x="210" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="CdTVhccYFgZ_ZqCnvElY-26" edge="1" parent="1" source="CdTVhccYFgZ_ZqCnvElY-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="CdTVhccYFgZ_ZqCnvElY-25" value="Se&lt;div&gt;sim&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CdTVhccYFgZ_ZqCnvElY-30" edge="1" parent="1" source="CdTVhccYFgZ_ZqCnvElY-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="CdTVhccYFgZ_ZqCnvElY-44" value="Se&lt;div&gt;não&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="373" y="605" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CdTVhccYFgZ_ZqCnvElY-13" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;rounded=1;" value="Verifique se o pneu está furado" vertex="1">
+          <mxGeometry height="90" width="116" x="212" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="CdTVhccYFgZ_ZqCnvElY-20" edge="1" parent="1" source="CdTVhccYFgZ_ZqCnvElY-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="CdTVhccYFgZ_ZqCnvElY-3" value="Se&lt;div&gt;sim&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CdTVhccYFgZ_ZqCnvElY-21" edge="1" parent="1" source="CdTVhccYFgZ_ZqCnvElY-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="CdTVhccYFgZ_ZqCnvElY-22" value="Se&lt;div&gt;não&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="165" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CdTVhccYFgZ_ZqCnvElY-19" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" value="Você escutou algum barulho estranho?" vertex="1">
+          <mxGeometry height="110" width="129" x="349" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="CdTVhccYFgZ_ZqCnvElY-22" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" value="Continue dirigindo&lt;div&gt;(Fim)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="520" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="CdTVhccYFgZ_ZqCnvElY-33" edge="1" parent="1" source="CdTVhccYFgZ_ZqCnvElY-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="CdTVhccYFgZ_ZqCnvElY-32" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CdTVhccYFgZ_ZqCnvElY-25" parent="1" style="whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;rounded=1;" value="vá para o porta-malas" vertex="1">
+          <mxGeometry height="60" width="120" x="14" y="575" as="geometry" />
+        </mxCell>
+        <mxCell id="CdTVhccYFgZ_ZqCnvElY-35" edge="1" parent="1" source="CdTVhccYFgZ_ZqCnvElY-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="CdTVhccYFgZ_ZqCnvElY-34" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CdTVhccYFgZ_ZqCnvElY-32" parent="1" style="whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;rounded=1;" value="Pegue o macaco, a chave de roda e o estepe" vertex="1">
+          <mxGeometry height="60" width="120" x="14" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="CdTVhccYFgZ_ZqCnvElY-37" edge="1" parent="1" source="CdTVhccYFgZ_ZqCnvElY-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="CdTVhccYFgZ_ZqCnvElY-36" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CdTVhccYFgZ_ZqCnvElY-34" parent="1" style="whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;rounded=1;" value="Coloque o macaco debaixo do carro ao lado da roda para subir o carro" vertex="1">
+          <mxGeometry height="80" width="120" x="14" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="CdTVhccYFgZ_ZqCnvElY-39" edge="1" parent="1" source="CdTVhccYFgZ_ZqCnvElY-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="CdTVhccYFgZ_ZqCnvElY-38" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CdTVhccYFgZ_ZqCnvElY-36" parent="1" style="whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;rounded=1;" value="Desrosqueie os parafusos e tire o pneu" vertex="1">
+          <mxGeometry height="60" width="120" x="14" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="CdTVhccYFgZ_ZqCnvElY-41" edge="1" parent="1" source="CdTVhccYFgZ_ZqCnvElY-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="CdTVhccYFgZ_ZqCnvElY-40" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CdTVhccYFgZ_ZqCnvElY-38" parent="1" style="whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;rounded=1;" value="Coloque o estepe, e aperte os parafusos" vertex="1">
+          <mxGeometry height="60" width="120" x="14" y="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="CdTVhccYFgZ_ZqCnvElY-43" edge="1" parent="1" source="CdTVhccYFgZ_ZqCnvElY-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="CdTVhccYFgZ_ZqCnvElY-42" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CdTVhccYFgZ_ZqCnvElY-40" parent="1" style="whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;rounded=1;" value="Abaixe o macaco, e retire ele debaixo do carro" vertex="1">
+          <mxGeometry height="60" width="120" x="14" y="1140" as="geometry" />
+        </mxCell>
+        <mxCell id="CdTVhccYFgZ_ZqCnvElY-51" edge="1" parent="1" source="CdTVhccYFgZ_ZqCnvElY-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="CdTVhccYFgZ_ZqCnvElY-50" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CdTVhccYFgZ_ZqCnvElY-42" parent="1" style="whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;rounded=1;" value="Guarde o macaco, a chave de roda e o pneu furado no porta-malas" vertex="1">
+          <mxGeometry height="70" width="120" x="14" y="1250" as="geometry" />
+        </mxCell>
+        <mxCell id="CdTVhccYFgZ_ZqCnvElY-46" edge="1" parent="1" source="CdTVhccYFgZ_ZqCnvElY-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="CdTVhccYFgZ_ZqCnvElY-45" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CdTVhccYFgZ_ZqCnvElY-44" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" value="Volte ao carro" vertex="1">
+          <mxGeometry height="60" width="120" x="370" y="575" as="geometry" />
+        </mxCell>
+        <mxCell id="CdTVhccYFgZ_ZqCnvElY-48" edge="1" parent="1" source="CdTVhccYFgZ_ZqCnvElY-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="CdTVhccYFgZ_ZqCnvElY-49" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CdTVhccYFgZ_ZqCnvElY-45" parent="1" style="whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;rounded=1;" value="Abaixe o freio de mão, desligue o pisca alerta" vertex="1">
+          <mxGeometry height="60" width="120" x="370" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="CdTVhccYFgZ_ZqCnvElY-49" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" value="E volte ao carro (Fim)" vertex="1">
+          <mxGeometry height="80" width="120" x="370" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="CdTVhccYFgZ_ZqCnvElY-53" edge="1" parent="1" source="CdTVhccYFgZ_ZqCnvElY-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="CdTVhccYFgZ_ZqCnvElY-52" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CdTVhccYFgZ_ZqCnvElY-50" parent="1" style="whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;rounded=1;" value="Entre no carro, abaixe o freio de mão" vertex="1">
+          <mxGeometry height="60" width="120" x="14" y="1380" as="geometry" />
+        </mxCell>
+        <mxCell id="CdTVhccYFgZ_ZqCnvElY-56" edge="1" parent="1" source="CdTVhccYFgZ_ZqCnvElY-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="CdTVhccYFgZ_ZqCnvElY-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CdTVhccYFgZ_ZqCnvElY-52" parent="1" style="whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;rounded=1;" value="Desligue o pisca alerta, de a seta para o lado da pista" vertex="1">
+          <mxGeometry height="60" width="120" x="14" y="1500" as="geometry" />
+        </mxCell>
+        <mxCell id="CdTVhccYFgZ_ZqCnvElY-55" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" value="&amp;nbsp;E continue a estrada (Fim)" vertex="1">
+          <mxGeometry height="80" width="120" x="14" y="1600" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
