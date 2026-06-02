@@ -1,0 +1,24 @@
+/* VARIÁVEIS */
+:root{
+    --cor-principal: #0077cc;
+    --cor-hover: #00bfff;
+    --cor-voltar: #ff6600;
+    --cor-fundo: #f1f1f1;
+    --cor-texto: #333;
+}
+
+/* REST */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GERAL */
+header{
+    background-color: var(--cor-principal);
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
