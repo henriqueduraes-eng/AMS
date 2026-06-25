@@ -1,0 +1,48 @@
+1. Python
+Quais são as principais características da linguagem Python?
+O que torna Python popular em ciência de dados e inteligência artificial?
+Como funcionam listas, tuplas e dicionários em Python?
+Qual a diferença entre uma função e um método em Python?
+Quais são as vantagens e desvantagens de Python em comparação com outras linguagens?
+2. Java
+O que significa o princípio "Write Once, Run Anywhere" do Java?
+Como funciona a Máquina Virtual Java (JVM)?
+Qual a importância da orientação a objetos em Java?
+O que são classes e objetos em Java?
+Em quais tipos de aplicações Java é mais utilizado?
+3. JavaScript
+Qual é o principal objetivo do JavaScript no desenvolvimento web?
+Qual a diferença entre JavaScript e Java?
+O que é o DOM e como JavaScript interage com ele?
+Como funcionam funções assíncronas em JavaScript?
+O que são frameworks como React, Angular e Vue?
+4. C++
+Quais são as principais diferenças entre C e C++?
+O que é programação orientada a objetos em C++?
+Como funciona o gerenciamento de memória em C++?
+Em quais áreas C++ é amplamente utilizado?
+Quais vantagens de desempenho o C++ oferece?
+5. C#
+Quem desenvolveu a linguagem C#?
+Como o C# se integra à plataforma .NET?
+Quais são as características da orientação a objetos em C#?
+Por que C# é muito utilizado no desenvolvimento de jogos?
+Quais são as diferenças entre C# e Java?
+6. PHP
+Qual é a principal finalidade do PHP?
+Como PHP interage com bancos de dados?
+Quais são as vantagens de usar PHP no desenvolvimento web?
+O que são sessões e cookies em PHP?
+Quais sistemas famosos foram desenvolvidos utilizando PHP?
+7. Go (Golang)
+Por que a linguagem Go foi criada?
+Quais são as principais vantagens de Go em aplicações de servidor?
+Como funciona a concorrência com goroutines?
+O que diferencia Go de linguagens como Java e C++?
+Em quais empresas ou projetos Go é amplamente utilizado?
+8. Rust
+Quais problemas a linguagem Rust busca resolver?
+O que significa o conceito de ownership em Rust?
+Como Rust contribui para a segurança de memória?
+Em quais tipos de projetos Rust é mais utilizado?
+Quais são as principais diferenças entre Rust e C++?
