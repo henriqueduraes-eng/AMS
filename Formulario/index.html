@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <main>
+        <h1>
+            <span class="vermelho sublinhado"> Desafio:</span>
+            <span class="sublinhado"> Formulario de Cadastro</span>
+        </h1>
+
+        <form action="#" method="post" enctype="multipart/form-data" id="formcadastro">
+            <div class="form-grid">
+                <div class="campo">
+                    <label for="nome" class="titulo">
+                        <span class="icone">&#128100</span>
+                        <span>
+                            <span class="sublinhado">Nome</span>
+                            <span class="tipo">(text)</span>
+                        </span>
+                    </label>
+                    <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required>
+                </div>
+                <div class="campo">
+                    <label for="email" class="titulo">
+                        <span class="icone">&#9993;</span>
+                        <span>
+                            <span class="sublinhado">E-mail</span>
+                            <span class="tipo">(email)</span>
+                        </span>
+                    </label>
+                    <input type="email" name="email" id="email" placeholder="Digite seu e-mail" required>
+                </div>
+                <div class="campo">
+                    <label for="senha" class="titulo">
+                        <span class="icone">&#128274;</span>
+                        <span>
+                            <span class="sublinhado">Senha</span>
+                            <span class="tipo">(senha)</span>
+                        </span>
+                    </label>
+                    <input type="password" name="senha" id="senha" placeholder="Digite sua senha" minlength="6" required>
+                </div>
+                                <div class="campo">
+                    <label for="data_nascimento" class="titulo">
+                        <span class="icone">&#128197;</span>
+                        <span>
+                            <span class="sublinhado">Data de Nascimento</span>
+                            <span class="tipo">(date)</span>
+                        </span>
+                    </label>
+                    <input type="date" name="data_nascimento" id="data_nascimento" required>
+                </div>
+
+                <div class="campo">
+                    <label class="titulo">
+                        <span class="icone">&#9895;</span>
+                        <span>
+                            <span class="sublinhado"> Gênero</span>
+                            <span class="tipo">(radio)</span>
+                        </span>
+                    </label>
+                    <div class="radio-container">
+                        <label>
+                            <input type="radio" name="genero" value="Masculino">Masculino
+                        </label>
+                        <label>
+                            <input type="radio" name="genero" value="Feminino">Feminino
+                        </label>
+                        <label>
+                            <input type="radio" name="genero" value="Outro">Outro
+                        </label>
+                    </div>
+                    <div class="campo"><label for="estado_civil" class="titulo"><span class="icone">&#128141;</span>
+                        <span>
+                        <span class="sublinhado">Estado CIvil</span>
+                        <span class="tipo">(select)</span>
+                    </span>
+                </label>
+            </div>
+                </div>
+            </div>
+        </form>
+
+    </main>
+    
+</body>
+</html>
