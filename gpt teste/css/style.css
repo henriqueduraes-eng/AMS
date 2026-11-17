@@ -1,0 +1,364 @@
+
+/* CONFIGURAÇÕES GERAIS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+:root {
+    --preto: #000000;
+    --vermelho-escuro: #830000;
+    --vermelho: #BC0202;
+    --vermelho-claro: #FF0000;
+}
+
+/* CABEÇALHO - FLEXBOX */
+header {
+    background-color: #000000;
+    padding: 20px 8%;
+    border-bottom: 2px solid #830000;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.logo span,
+footer span {
+    color: #FF0000;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    color: #FF0000;
+}
+
+/* HERO */
+.hero {
+    min-height: 550px;
+    display: flex;
+    align-items: center;
+    padding: 60px 8%;
+    background:
+        linear-gradient(90deg, #000000 30%, rgba(0,0,0,0.65)),
+        url('../img/academia.jpg');
+
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero h2 {
+    font-size: clamp(35px, 6vw, 60px);
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+
+.hero h2 span,
+section h2 span {
+    color: #FF0000;
+}
+
+.hero p {
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+/* BOTÕES */
+.btn {
+    display: inline-block;
+    background-color: #BC0202;
+    color: white;
+    padding: 14px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #FF0000;
+    transform: scale(1.05);
+}
+
+/* SOBRE - GRID */
+.sobre {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    gap: 50px;
+    padding: 90px 8%;
+}
+
+.sobre h2 {
+    margin-bottom: 20px;
+}
+
+.sobre-texto p {
+    margin-bottom: 15px;
+    color: #cccccc;
+}
+
+.sobre-destaques {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.destaque {
+    background-color: #830000;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    flex: 1;
+    min-width: 120px;
+}
+
+.destaque h3 {
+    font-size: 30px;
+    color: #ffffff;
+}
+
+/* SERVIÇOS - GRID */
+.servicos {
+    background-color: #111111;
+    padding: 80px 8%;
+    text-align: center;
+}
+
+.servicos h2,
+.planos h2 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.subtitulo {
+    color: #bbbbbb;
+    margin-bottom: 40px;
+}
+
+/* CARDS */
+.cards-servicos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.card {
+    background-color: #000000;
+    border: 1px solid #830000;
+    border-radius: 10px;
+    padding: 30px 20px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    border-color: #FF0000;
+    box-shadow: 0 5px 20px rgba(255, 0, 0, 0.25);
+}
+
+.card-icon {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    color: #FF0000;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #cccccc;
+}
+
+/* PLANOS - GRID */
+.planos {
+    padding: 80px 8%;
+    text-align: center;
+}
+
+.cards-planos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.plano {
+    background-color: #151515;
+    border: 1px solid #830000;
+    border-radius: 10px;
+    padding: 35px 20px;
+    transition: 0.3s;
+}
+
+.plano:hover {
+    transform: translateY(-8px);
+    border-color: #FF0000;
+}
+
+.plano h3 {
+    color: #FF0000;
+    font-size: 25px;
+}
+
+.plano h2 {
+    margin: 20px 0;
+    color: #ffffff;
+}
+
+.plano p {
+    margin-bottom: 12px;
+    color: #cccccc;
+}
+
+.plano .btn {
+    margin-top: 20px;
+}
+
+.destaque-plano {
+    border: 2px solid #FF0000;
+}
+
+/* CONTATO - FLEXBOX */
+.contato {
+    background-color: #830000;
+    padding: 70px 8%;
+    text-align: center;
+}
+
+.contato h2 {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.contato p {
+    margin-bottom: 25px;
+}
+
+.contato .btn {
+    background-color: #000000;
+}
+
+.contato .btn:hover {
+    background-color: #FF0000;
+}
+
+/* RODAPÉ */
+footer {
+    background-color: #000000;
+    border-top: 2px solid #830000;
+    text-align: center;
+    padding: 35px 15px;
+}
+
+footer h2 {
+    margin-bottom: 10px;
+}
+
+footer p {
+    color: #aaaaaa;
+    margin: 5px;
+}
+
+.copyright {
+    margin-top: 20px !important;
+    font-size: 13px;
+}
+
+/* RESPONSIVIDADE */
+@media (max-width: 900px) {
+
+    .cards-servicos {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .cards-planos {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .sobre {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+
+    header {
+        padding: 20px 5%;
+    }
+
+    .navbar {
+        flex-direction: column;
+    }
+
+    .menu {
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .hero {
+        min-height: 450px;
+        padding: 40px 6%;
+    }
+
+    .hero h2 {
+        font-size: 38px;
+    }
+
+    .sobre,
+    .servicos,
+    .planos {
+        padding: 55px 6%;
+    }
+
+    .cards-servicos,
+    .cards-planos {
+        grid-template-columns: 1fr;
+    }
+
+    .servicos h2,
+    .planos h2 {
+        font-size: 28px;
+    }
+
+}
